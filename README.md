@@ -1,153 +1,85 @@
-💼 JobPortal – MERN Stack Recruitment Platform 🌐
-📌 Project Overview
+# 💼 CareerConnect – MERN Stack Recruitment Platform 🌐
 
-JobPortal is a full-stack web application built using the MERN Stack that connects job seekers and recruiters on a single platform. The application allows users to explore job opportunities, post new job listings, and manage applications efficiently.
+## 📌 Project Overview
 
-With secure authentication (Email/Password and Google Sign-In via Firebase), smart filtering options, and an intuitive user interface, this platform simplifies the hiring and job-search process.
+CarrerConnect is a full-stack recruitment platform built using the **MERN Stack (MongoDB, Express, React, Node.js)**.  
+It connects job seekers and recruiters on a single platform, enabling seamless job discovery, posting, and management.
 
-The project focuses on delivering a smooth, responsive, and secure experience for both applicants and administrators.
+The application provides secure authentication (Email/Password & Google Sign-In via Firebase), advanced filtering, and a responsive user interface to simplify the hiring process.
 
-✨ Core Functionalities
-👩‍💻 For Users
+---
 
-🔐 Secure Login & Signup
-Users can create accounts and log in securely using email/password credentials.
+## ✨ Key Features
 
-🌍 Google Sign-In
-Quick authentication using Google powered by Firebase Authentication.
+### 👩‍💻 User Features
+- 🔐 Secure Login & Signup
+- 🌍 Google Authentication (Firebase)
+- 🔎 Browse & Filter Job Listings
+- 📝 Post, Update & Delete Jobs
+- 📄 Pagination for organized job display
 
-🔎 Browse Job Listings
-View detailed job postings including title, description, company name, location, and posting date.
+### 🛠️ Admin Features
+- 🔑 Admin Dashboard
+- 📋 Job Management Control
+- 👥 User Monitoring
+- 🧹 Content Moderation
 
-🎯 Advanced Search & Filters
-Filter jobs based on keywords, location, and posting time to quickly find relevant opportunities.
+---
 
-📝 Post & Manage Jobs
-Registered users can add, update, or delete job listings they have posted.
+## 🚀 Highlights
+- 🔒 Secure authentication system
+- ⚡ RESTful APIs with Axios integration
+- 🗄️ MongoDB NoSQL database
+- 📱 Fully responsive UI
+- 🎨 Clean and intuitive design
 
-📄 Pagination Support
-Organized job display with pagination for better navigation and performance.
+---
 
-🛠️ For Admin
+## 🧰 Tech Stack
 
-🔑 Admin Dashboard Access
-Dedicated admin login to manage platform activities.
+**Frontend:**  
+React.js, JavaScript (ES6+), CSS3, Bootstrap, Axios  
 
-📋 Job Control Management
-Update or remove job listings when required.
+**Backend:**  
+Node.js, Express.js  
 
-👥 User Monitoring
-View registered users and oversee platform interactions.
+**Database:**  
+MongoDB  
 
-🧹 Content Moderation
-Ensure job postings and user activity follow platform standards.
+**Authentication:**  
+Firebase Authentication  
 
-📊 Basic Reporting & Insights
-Monitor job listings and user engagement for better platform management.
+---
 
-🚀 Highlights
+## 🛠️ Installation & Setup
 
-🔒 Secure authentication system
-
-📱 Fully responsive and mobile-friendly design
-
-⚡ Fast API communication using Axios
-
-📂 Organized backend structure using REST APIs
-
-🗄️ NoSQL database integration with MongoDB
-
-🎨 Clean and user-friendly interface
-
-🧰 Tech Stack
-💻 Frontend
-
-React.js
-
-JavaScript (ES6+)
-
-CSS3
-
-Bootstrap
-
-Axios
-
-🖥️ Backend
-
-Node.js
-
-Express.js
-
-🗄️ Database
-
-MongoDB
-
-🔐 Authentication
-
-Firebase Authentication (Google Login Support)
-
-🛠️ Installation & Setup Guide
-
-Follow the steps below to run the project locally:
-
-1️⃣ Clone the Repository
+```bash
+# Clone the repository
 git clone <repository_url>
-2️⃣ Move into Project Folder
-cd Jobportal
-3️⃣ Install Backend Dependencies
+
+# Install backend dependencies
 cd backend
 npm install
-4️⃣ Install Frontend Dependencies
+
+# Install frontend dependencies
 cd ../frontend
 npm install
-5️⃣ Configure Environment Variables
 
-Create .env files in both backend and frontend directories and add:
-
-MongoDB connection string
-
-Firebase configuration keys
-
-JWT secret (if used)
-
-6️⃣ Start the Application
-
-Run backend server:
-
-cd backend
+# Run backend
 npm start
 
-Run frontend server:
-
-cd frontend
+# Run frontend
 npm start
-7️⃣ Access the Application
 
-Open your browser and visit:
-
+Access the application at:
 http://localhost:3000
-🎯 Who Can Use This Platform?
 
-👩‍🎓 Students & Job Seekers
+---
 
-🏢 Recruiters & Employers
+##📌 Future Enhancements
+-Resume upload feature
+-Application tracking system
+-Email notifications
+-Advanced analytics dashboard
 
-👨‍💼 Hiring Managers
-
-🛠️ Administrators managing recruitment platforms
-
-📌 Future Improvements
-
-Resume upload feature
-
-Application tracking system
-
-Email notifications
-
-Role-based access control
-
-Advanced analytics dashboard
-
-👩‍💻 Project Maintainer
-
-Maintained by Anshika Bhatt
+##👩‍💻Project maintained by Anshika Bhatt
