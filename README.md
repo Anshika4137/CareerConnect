@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-CarrerConnect is a full-stack recruitment platform built using the **MERN Stack (MongoDB, Express, React, Node.js)**.  
+CareerConnect is a full-stack recruitment platform built using the **MERN Stack (MongoDB, Express, React, Node.js)**.  
 It connects job seekers and recruiters on a single platform, enabling seamless job discovery, posting, and management.
 
 The application provides secure authentication (Email/Password & Google Sign-In via Firebase), advanced filtering, and a responsive user interface to simplify the hiring process.
@@ -70,16 +70,20 @@ npm start
 
 # Run frontend
 npm start
+```
 
-Access the application at:
+Access the application at:  
 http://localhost:3000
 
 ---
 
-##📌 Future Enhancements
--Resume upload feature
--Application tracking system
--Email notifications
--Advanced analytics dashboard
+## 📌 Future Enhancements
+- Resume upload feature
+- Application tracking system
+- Email notifications
+- Advanced analytics dashboard
 
-##👩‍💻Project maintained by Anshika Bhatt
+---
+
+## 👩‍💻 Project Maintained By
+**Anshika Bhatt**
